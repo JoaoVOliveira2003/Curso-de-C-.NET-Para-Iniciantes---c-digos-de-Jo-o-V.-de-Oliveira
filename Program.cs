@@ -4,7 +4,17 @@ class Program
 {
     static void Main()
     {
-        //1:10:37
+        //Fazendo isso
+        Teste t = new Teste();
+
+        t.x = 10;
+        Console.WriteLine(t.x);
+
+
     }
 }
 
+class Teste
+{
+    public int x;
+}

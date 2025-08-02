@@ -12,3 +12,4 @@ C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Debug\net9.0\refint\cursoCshar
 C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Debug\net9.0\cursoCsharp.pdb
 C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Debug\net9.0\cursoCsharp.genruntimeconfig.cache
 C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Debug\net9.0\ref\cursoCsharp.dll
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Debug\net9.0\cursoCsharp.sourcelink.json
