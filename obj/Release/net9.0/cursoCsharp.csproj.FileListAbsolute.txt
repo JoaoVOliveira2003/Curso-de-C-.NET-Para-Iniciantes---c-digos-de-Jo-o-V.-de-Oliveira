@@ -1,0 +1,15 @@
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\bin\Release\net9.0\cursoCsharp.exe
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\bin\Release\net9.0\cursoCsharp.deps.json
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\bin\Release\net9.0\cursoCsharp.runtimeconfig.json
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\bin\Release\net9.0\cursoCsharp.dll
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\bin\Release\net9.0\cursoCsharp.pdb
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Release\net9.0\cursoCsharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Release\net9.0\cursoCsharp.AssemblyInfoInputs.cache
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Release\net9.0\cursoCsharp.AssemblyInfo.cs
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Release\net9.0\cursoCsharp.csproj.CoreCompileInputs.cache
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Release\net9.0\cursoCsharp.sourcelink.json
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Release\net9.0\cursoCsharp.dll
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Release\net9.0\refint\cursoCsharp.dll
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Release\net9.0\cursoCsharp.pdb
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Release\net9.0\cursoCsharp.genruntimeconfig.cache
+C:\Users\olive\Desktop\codigos\C#\cursoCsharp\obj\Release\net9.0\ref\cursoCsharp.dll

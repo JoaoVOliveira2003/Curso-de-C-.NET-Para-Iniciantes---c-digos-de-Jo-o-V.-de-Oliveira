@@ -5,12 +5,16 @@ namespace cursoCsharp.Codigos
     {
         public static void Rodar()
         {
+            //Fazendo isso
+            Teste t = new Teste();
 
+            t.x = 10;
+            Console.WriteLine(t.x);
         }
 
         class Teste
-{
-    public int x;
-}
+        {
+            public int x;
+        }
     }
 }
