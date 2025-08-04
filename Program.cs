@@ -1,22 +1,25 @@
 ﻿using System;
 using System.IO;  // Necessário para File.AppendAllText
 
-// https://www.youtube.com/watch?v=oTivhgjbhIg&t=5889s | 02:18
+// https://www.youtube.com/watch?v=oTivhgjbhIg&t=5889s | 02:30
 
 class Program
 {
     static void Main()
     {
-        ILogger logger = new FileLogger();
+        ILogger logger = new FileLogger("mulog.txt");
 
         BankAccount conta1 = new BankAccount("João", 1000, logger);
         BankAccount conta2 = new BankAccount("Maria", 500, logger);
 
-        Console.WriteLine($"Conta 1 - Nome: {conta1.Name}, Saldo: {conta1.Balance}");
+        List<BankAccount> contas = new List<BankAccount> { conta1, conta2 };
 
-        conta1.Deposit(200);
+        foreach (var conta in contas)
+        {
+            Console.WriteLine($"Conta de {conta.Name} tem saldo inicial de {conta.Balance}");
+            conta.Deposit(200);
+        }
 
-        Console.WriteLine($"Conta 1 após depósito - Saldo: {conta1.Balance}");
     }
 }
 
@@ -35,9 +38,13 @@ class ConsoleLogger : ILogger
 
 class FileLogger : ILogger
 {
+    private string filePath;
+    public FileLogger(string filePath)
+    {
+        this.filePath = filePath;
+    }
     public void Log(string message)
     {
-        // Adiciona uma quebra de linha para separar as mensagens no arquivo
         File.AppendAllText("log.txt", message + Environment.NewLine);
     }
 }
