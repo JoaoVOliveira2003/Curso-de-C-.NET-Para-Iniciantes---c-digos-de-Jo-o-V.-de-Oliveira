@@ -1,7 +1,7 @@
 
 namespace cursoCsharp.Codigos
 {
-    public class Basico
+    public class aBasico
     {
         public static void Rodar()
         {
