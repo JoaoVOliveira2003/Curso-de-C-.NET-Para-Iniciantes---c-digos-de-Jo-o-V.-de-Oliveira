@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;  // Necessário para File.AppendAllText
 
-// https://www.youtube.com/watch?v=oTivhgjbhIg&t=5889s | 02:30
+// https://www.youtube.com/watch?v=oTivhgjbhIg&t=5889s | 02:44
 
 class Program
 {
